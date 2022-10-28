@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/bk1.jpg);
+    background-size: cover;
+}
+header{
+    background-color: black;
+}
+#logo{
+    margin-left: 60px;
+    height: 90px;
+    width: auto;
+   }
+   .navigation{
+    float:right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+   border: 1px solid white;
+   padding:6px;
+   margin-right: 7px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navigation a:hover{
+    background-color: teal;
+    color:black;
+    transition: 0.5 ease-in-out;
+}
+.main-content{
+    margin-top: 60px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-content li {
+    list-style-type: square;
+}
+
+.login{  
+    width: 300px;  
+    overflow: hidden;  
+    margin-top: 40px;
+    margin-right: 100px;
+    padding: 40px;  
+    background: gray;  
+    border-radius: 15px ;  
+    float:right;   
+}  
+
+label{  
+    color: #08ffd1;  
+    font-size: 14px;  
+}  
+.textbx{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: teal;  
+  font-weight: bold;
+  
+}  
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover{
+    color:blue;
+    transition: 0.5 ease-in-out;
+}
+
+#log:hover {
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    transition: 0.5 ease-in-out;
+}
